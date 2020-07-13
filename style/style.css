@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../resources/fondo.jpg);
+    width: 1280px; 
+    height: 800px;
+}
+
+hr{
+    color: black;
+}
+
+div#general{
+    margin: auto;
+    margin-top: 15px;
+    width: 960px;
+    height: 670px;
+    background-color: rgba(210, 105, 30, 0.562);
+}
+
+div#encabezado{
+    width: 960px;
+    height: 60px;
+    background-color: rgba(252, 142, 102, 0.623);
+}
+
+div#perfil{
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(241, 101, 50);
+}
+
+div#carritoCompra{
+    margin-left: 5px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: tomato;
+}
+
+div#datosUsuario{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 435px;
+    height: 40px;
+    background-color: white;
+}
+
+div#cuerpo{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 940px;
+    height: 535px;
+    background-color: white;
+}
+
+img#fondoo{
+    width: 940px;
+    height: 535px;
+}
+
+div#relacionados{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+div#descuentos{
+    float: right;
+    margin-top: 285px;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+
+img#paginaInicio{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 350px;
+    height: 50px;
+}
+
+img#carritoCompra{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/*button#carritoCompra{
+    background-image: url("../resources/carritoCompra.png");
+    width: 50px;
+    height: 50px;
+}*/
+
+ul#opciones{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: royalblue;
+    overflow: hidden;
+}
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 51.2px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+li a:hover{
+    background-color: teal;
+    color: tomato;
+}
